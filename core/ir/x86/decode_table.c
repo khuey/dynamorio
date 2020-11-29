@@ -10524,8 +10524,8 @@ const instr_info_t extra_operands[] =
     {OP_CONTD, 0x663a0a08, "vrndscaless cont'd", xx, xx, Wd_dq, xx, xx, mrm|evex|reqp, x, tevexw[253][1]},
     {OP_CONTD, 0x663a0a18, "vrndscaless cont'd", xx, xx, Ud_dq, xx, xx, mrm|evex|reqp, x, END_LIST},
     /* 246 */
-    {OP_CONTD, 0x663a0b08, "vrndscalesd cont'd", xx, xx, Wq_dq, xx, xx, mrm|evex|reqp, x, tevexw[254][1]},
-    {OP_CONTD, 0x663a0b18, "vrndscalesd cont'd", xx, xx, Uq_dq, xx, xx, mrm|evex|reqp, x, END_LIST},
+    {OP_CONTD, 0x663a0b48, "vrndscalesd cont'd", xx, xx, Wq_dq, xx, xx, mrm|evex|reqp, x, tevexw[254][1]},
+    {OP_CONTD, 0x663a0b58, "vrndscalesd cont'd", xx, xx, Uq_dq, xx, xx, mrm|evex|reqp, x, END_LIST},
     /* 248 */
     {OP_CONTD, 0x663a0f18, "vpalignr cont'd", xx, xx, We, xx, xx, mrm|evex, x, END_LIST},
     {OP_CONTD, 0x663a4218, "vdbpsadbw cont'd", xx, xx, We, xx, xx, mrm|evex|reqp, x, END_LIST},
